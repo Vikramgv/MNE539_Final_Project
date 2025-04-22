@@ -1,4 +1,4 @@
-import heapq
+import heapq  #Data structure that allows us to quickly access the smallest (min-heap) or largest (max-heap) element
 
 # Step 1: Define the graph 
 graph = {
