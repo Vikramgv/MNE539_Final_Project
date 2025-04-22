@@ -3,8 +3,8 @@ import heapq  #Data structure that allows us to quickly access the smallest (min
 # Step 1: Define the graph 
 graph = {
     # Buildings  (A to H)
-    'A': [('B', 300), ('F', 400), ('C', 800), ('G', 800), ('Lot 1', 400), ('Lot 17', 300), ('Lot 16', 400), ('Lot 15', 500), ('Lot 14', 500), ('Lot 13', 500)],  # A -> Dion, CCB, Library, SENG, Textiles, Violette
-    'B': [('D', 300), ('F', 100), ('A', 300), ('Lot 1', 500), ('Lot 2', 400), ('Lot 3', 400), ('Lot 4', 400), ('Lot 5', 400), ('Lot 6', 400), ('Lot 8', 500)],  # B -> LARTS, Auditorium, CVPA
+    'A': [('B', 400), ('F', 400), ('C', 800), ('G', 800), ('Lot 1', 400), ('Lot 17', 300), ('Lot 16', 400), ('Lot 15', 500), ('Lot 14', 500), ('Lot 13', 500)],  # A -> Dion, CCB, Library, SENG, Textiles, Violette
+    'B': [('D', 300), ('F', 100), ('A', 41800), ('Lot 1', 500), ('Lot 2', 400), ('Lot 3', 400), ('Lot 4', 400), ('Lot 5', 400), ('Lot 6', 400), ('Lot 8', 500)],  # B -> LARTS, Auditorium, CVPA
     'C': [('F', 900), ('A', 800), ('G', 500)],  # C -> Cedar Dell
     'D': [('F', 100), ('E', 600), ('B', 300), ('H', 600), ('Lot 21', 500)],  # D -> Balsam, Spruce, Grove
     'E': [('D', 600), ('Lot 5', 400), ('Lot 19', 100), ('Lot 20', 50), ('Lot 21', 50)],  # E -> Oak Glen, Pine Dale, Health Service
