@@ -1,4 +1,4 @@
-import heapq  #Data structure that allows us to quickly access the smallest (min-heap) or largest (max-heap) element
+import heapq  # Data structure that allows us to quickly access the smallest (min-heap) or largest (max-heap) element
 
 # Step 1: Define the graph 
 graph = {
@@ -90,7 +90,7 @@ def main():
     if choice == 1:
         # Option 1: Distance between two nodes
         print("Available buildings and parking lots:")
-        print("Buildings: A - Science and Engineering, B - Liberal Arts, C - Cedar Dell, D - Balsam and Spruce, E - Oak Glen, F - Foster, G - Woodland Apartments, H - Athletic Center")
+        print("Buildings: A - Dion, CCB, Library, SENG, Textiles, Violette; B - LARTS, Auditorium, Campus Center; C - Cedar Dell, D - Balsam, Spruce, Grove; E - Oak Glen, Pine Dale, Health Services; F - Foster, CVPS; G - Woodland Apartments, H - Athletic Center")
         print("Parking Lots: Lot 1 - Lot 24")
         
         # Get the start and end nodes (convert input to uppercase to handle case insensitivity)
